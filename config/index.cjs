@@ -13,17 +13,17 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '23d072d7d1eef1cbc0f1f2f1feef0237',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '山西',
+  CITY: '阳泉',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oIHvR6piHGpgvApoa0Wh6EmI-4S0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'taxUpx-7O7lbye4UIRDZaNZzlhMnWpaz_e1Nu8MxDw4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
