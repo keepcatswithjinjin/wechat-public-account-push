@@ -655,7 +655,7 @@ export const getBirthdayMessage = (festivals) => {
         if (item.diffDay === 0) {
           message = `今天是 「${item.name}」 的${age && item.isShowAge ? `${(item.useLunar ? 1 : 0) + age}岁` : ''}${item.useLunar ? '阴历' : '公历'}生日哦，祝${item.name}生日快乐！`
         } else {
-          message = `距离 「${item.name}」 的${age && item.isShowAge ? `${age + 1}岁` : ''}${item.useLunar ? '阴历' : '公历'}生日还有${item.diffDay}天`
+          message = `距离 「${item.name}」 的${age && item.isShowAge ? `${age + 1}岁` : ''}${item.useLunar ? '公历' : '农历'}生日还有${item.diffDay}天`
         }
       }
 
