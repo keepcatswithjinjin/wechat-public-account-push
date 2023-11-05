@@ -22,9 +22,10 @@ const TEMPLATE_CONFIG = [
       
       {{comprehensive_horoscope.DATA}}
       {{healthy_horoscope_0.DATA}}
+      
       {{healthy_horoscope_1.DATA}}
+      
       {{healthy_horoscope_2.DATA}}
-      {{healthy_horoscope_3.DATA}}
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
